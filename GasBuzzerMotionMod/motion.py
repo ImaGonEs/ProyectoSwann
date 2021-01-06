@@ -1,7 +1,7 @@
 import time
 from grove.gpio import GPIO
- 
- 
+
+
 class GroveMiniPIRMotionSensor(GPIO):
     def __init__(self, pin):
         super(GroveMiniPIRMotionSensor, self).__init__(pin, GPIO.IN)
@@ -26,10 +26,14 @@ class GroveMiniPIRMotionSensor(GPIO):
             if callable(self._on_detect):
                 self._on_detect()
  
+
 Grove = GroveMiniPIRMotionSensor
  
- 
-def main():
+
+def getMotion():
+    return GroveMiniPIRMotionSensor(int(sys.argv[1])) #Kike hay que cambiar este argumento, no se que es lo que le metes por consola
+    
+"""def main():
     import sys
  
     if len(sys.argv) < 2:
@@ -49,3 +53,4 @@ def main():
  
 if __name__ == '__main__':
     main()
+"""

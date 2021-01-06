@@ -58,8 +58,11 @@ class GroveUltrasonicRanger(object):
 
 Grove = GroveUltrasonicRanger
 
+def getDistance():
+    return GroveUltrasonicRanger(5).get_distance()
 
-def main():
+
+"""def main():
     from grove.helper import SlotHelper
     sh = SlotHelper(SlotHelper.GPIO)
     pin = 5
@@ -74,3 +77,4 @@ def main():
 if __name__ == '__main__':
     main()
 
+"""

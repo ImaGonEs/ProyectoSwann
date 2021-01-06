@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 
-buzzer_pin = 12
+buzzer_pin = 5
 
 notes = {
 	'B0' : 31,

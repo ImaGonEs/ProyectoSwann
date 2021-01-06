@@ -11,6 +11,7 @@ class Water(GPIO):
     def on(self):
         
         self.write(1)
+        
 
     def off(self):
         
@@ -19,8 +20,12 @@ class Water(GPIO):
 
 Grove = Water
 
+def getDisp():
+    return Water(22)
 
-def main():
+
+
+"""def main():
     from grove.helper import SlotHelper
     sh = SlotHelper(SlotHelper.GPIO)
     pin = 22
@@ -36,3 +41,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+"""

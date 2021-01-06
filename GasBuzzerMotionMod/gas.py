@@ -23,7 +23,7 @@ def getGasValue(port):
     return(sensor.MQ2)
 
  
-def main():
+"""def main():
     # client = InfluxDBClient(host='localhost', port=8086, database='home')
     if len(sys.argv) < 2:
         print('Usage: {} adc_channel'.format(sys.argv[0]))
@@ -46,4 +46,4 @@ def main():
         time.sleep(5)
  
 if __name__ == '__main__':
-    main()
+    main()"""
