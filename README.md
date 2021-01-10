@@ -34,12 +34,12 @@ Clona nuestro repositiorio con:
 ```
 git clone https://github.com/ImaGonEs/ProyectoSwann
 ```
-Navega hasta el directorio y ejecuta el Main.py con:
+Tran haber instalado las librerias necesarias navega hasta el directorio y ejecuta el Main.py con:
 ```
 python Main.py
 ```
 
-Una vez hecho esto, el modulo comenzara a recoger y enviar datos para su analisis. Estos datos pueden ser vistos en forma de Dashboard en:
+Una vez hecho esto, el modulo comenzara a recoger y enviar datos para su análisis. Estos datos pueden ser vistos en forma de Dashboard en:
 
 https://freeboard.io/board/uuCpfr
 
