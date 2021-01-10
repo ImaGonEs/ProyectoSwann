@@ -31,7 +31,7 @@ Grove = GroveMiniPIRMotionSensor
  
 
 def getMotion():
-    return GroveMiniPIRMotionSensor(int(sys.argv[1])) #Kike hay que cambiar este argumento, no se que es lo que le metes por consola
+    return GroveMiniPIRMotionSensor(18) #Kike hay que cambiar este argumento, no se que es lo que le metes por consola pin 18
     
 """def main():
     import sys

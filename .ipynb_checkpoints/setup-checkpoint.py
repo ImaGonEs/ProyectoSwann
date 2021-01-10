@@ -16,6 +16,10 @@ setup(
    	"grove.py==0.6",
    	"Flask==1.1.2",
    	"picamera==1.13",
-
+#Buzzer al 16 pin 16
+#Movement al 18
+#Ultrasonido 5
+#Temperatura y humedad al 12
+#22 el relee
    ], 
 )
