@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-#Es muy posible que falten librerias
+
 #Las dos librerias que estan comentadas no se instalan bien con el setup, hay que hacerlo a mano con
     # 'pip install pyttsx' y 'pip install Adafruit-DHT'
 setup(
