@@ -3,6 +3,15 @@ import time
 
 buzzer_pin = 16
 
+
+def buzzS():
+
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(buzzer_pin,GPIO.OUT)
+    GPIO.output(buzzer_pin,GPIO.HIGH)
+    time.sleep(0.5)
+    GPIO.output(buzzer_pin,GPIO.LOW)
+    
 notes = {
 	'B0' : 31,
 	'C1' : 33, 'CS1' : 35,
@@ -355,11 +364,11 @@ def destroy():
 def play(melody,tempo,pause,pace=0.800):
 	
 	for i in range(0, len(melody)):		# Play song
+		if (tempo[i]!=None):
+			noteDuration = pace/tempo[i]
+			buzz(melody[i],noteDuration)	# Change the frequency along the song note
 		
-		noteDuration = pace/tempo[i]
-		buzz(melody[i],noteDuration)	# Change the frequency along the song note
-		
-		pauseBetweenNotes = noteDuration * pause
+			pauseBetweenNotes = noteDuration * pause
 		time.sleep(pauseBetweenNotes)
 	
 	

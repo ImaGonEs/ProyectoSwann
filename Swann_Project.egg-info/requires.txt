@@ -1,0 +1,5 @@
+dweepy==0.3.0
+requests==2.25.1
+grove.py==0.6
+Flask==1.1.2
+picamera==1.13

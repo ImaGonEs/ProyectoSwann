@@ -54,7 +54,35 @@ def getLocation():
     return locData
 
 
+# In[17]:
 
+
+"""r = getTemperature_Humidity()
+print(float(r[0]))"""
+
+
+# In[6]:
+
+
+"""getLocation()"""
+
+
+# In[7]:
+
+
+"""while True:
+    temphum = getTemperature_Humidity()
+    locData = getLocation()
+    now = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+    print(now)
+    print(temphum)
+    print("Latitud: "+locData['lat']+ " Longitud: "+ locData['lon'])
+    speaker.say(str("Latitud: "+locData['lat']+ " Longitud: "+ locData['lon']))
+    speaker.runAndWait()
+    time.sleep(1)"""
+
+
+# In[ ]:
 
 
 

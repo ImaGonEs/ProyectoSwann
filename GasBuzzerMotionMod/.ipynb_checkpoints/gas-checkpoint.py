@@ -2,7 +2,7 @@ import math
 import sys
 import time
 from grove.adc import ADC
-# from influxdb import InfluxDBClient
+
  
 class GroveGasSensorMQ2:
  
@@ -19,7 +19,7 @@ Grove = GroveGasSensorMQ2
 sensor = GroveGasSensorMQ2(0)  
  
 def getGasValue(port):
-    # sensor = GroveGasSensorMQ2(port)   
+  
     return(sensor.MQ2)
 
  

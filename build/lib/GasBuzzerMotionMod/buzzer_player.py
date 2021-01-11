@@ -1,11 +1,14 @@
 import RPi.GPIO as GPIO
 import time
-
+import grovepi
 buzzer_pin = 16
 
 
 def buzzS():
-
+    #grovepi.pinMode(buzzer_pin,"OUTPUT")
+    #grovepi.digitalWrite(buzzer_pin,0.6)
+    #time.sleep(1)
+    #grovepi.digitalWrite(buzzer_pin,0)
     GPIO.setmode(GPIO.BCM)
     GPIO.setup(buzzer_pin,GPIO.OUT)
     GPIO.output(buzzer_pin,GPIO.HIGH)
