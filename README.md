@@ -11,16 +11,16 @@ A continuación, explicaremos la instalación del software necesario para que un
 
 Para poner en marcha el módulo necesitarás:
    -   Python
-   -   Grove.py,
+   -   Grove.py
    -   Requests
 
    
-Adémas, necesitaras unas pocas librerias más para su correcto funcionamiento. Para instalarlas tan solo debes ejecutar:
+Adémas, necesitarás unas pocas librerías más para su correcto funcionamiento. Para instalarlas tan solo debes ejecutar:
 ```
 python setup.py install
 ```
 
-Hará falta que instales manualmente dos de estas librerias ya que Setuptools no las soporta, para ello:
+Hará falta que instales manualmente dos de estas librerías ya que Setuptools no las soporta, para ello:
 ```
 pip install pyttsx
 ```
@@ -54,12 +54,12 @@ Donde,
 
 - [youtube-key]: clave personal para la retransmisión en Youtube
 
-Tras haber instalado las librerias necesarias navega hasta el directorio y ejecuta el Main.py con:
+Tras haber instalado las librerías necesarias navega hasta el directorio y ejecuta el Main.py con:
 ```
 python Main.py
 ```
 
-Una vez hecho esto, el modulo comenzara a recoger y enviar datos para su análisis. Estos datos pueden ser vistos en forma de Dashboard en:
+Una vez hecho esto, el módulo comenzará a recoger y enviar datos para su análisis. Estos datos pueden ser vistos en forma de Dashboard en:
 
 https://freeboard.io/board/uuCpfr
 
