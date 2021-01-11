@@ -34,7 +34,27 @@ Clona nuestro repositiorio con:
 ```
 git clone https://github.com/ImaGonEs/ProyectoSwann
 ```
-Tran haber instalado las librerias necesarias navega hasta el directorio y ejecuta el Main.py con:
+La retransmisión en directo está vinculada con Youtube.
+El siguiente comando inicla la retransmisión en Youtube con el video que capta la cámara: 
+
+```bash
+raspivid -o - -t 0  -hf -fps 30 -b 6000000 -n | ffmpeg -re -ar 44100 -ac 2 -acodec pcm_s16le -f s16le -ac 2 -i /dev/zero -f h264 -i - -vcodec copy -acodec aac -ab 128k -g 50 -strict experimental -f flv [youtube-key]
+```
+Donde, 
+
+-fps: fotogramas por segundo
+
+-hf: horizontal flip
+
+-b: bitrate
+
+-n: desactiva la previsualización
+
+-f: permite la retransmisión sin micrófono
+
+-[youtube-key]: clave personal para la retransmisión en Youtube
+
+Tras haber instalado las librerias necesarias navega hasta el directorio y ejecuta el Main.py con:
 ```
 python Main.py
 ```
