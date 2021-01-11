@@ -4,7 +4,7 @@ El proyecto Swann consiste en la construcción de un módulo capaz de reconocer 
 
 ## Instalación
 
-A continuación, explicaremos la instalación del software necesario para que una vez esté el módulo montado puedas ponerlo a funcionar. 
+A continuación, explicaremos la instalación del software necesario para que una vez esté el módulo montado puedas ponerlo a funcionar. Los pines a los que debe conectarse cada sensor están especificados dentro del setup.py
 
 
 ### Prerequisitos
