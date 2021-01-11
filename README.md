@@ -1,10 +1,10 @@
 # Proyecto Swann
-El proyecto Swann consiste en la construcción de un módulo capaz de reconocer e identificar situaciones en las que sea necesaria la desinfección del aire y actúe enconsecuencia. Es por ello que contará con diferentes sensores (tales como cámaras de infrarrojos)para la detección de aglomeraciones, y dispondrá de un dispensador para la propagación de cualquier desinfectante no dañino. El módulo podría ser acoplado a varios drones de vigilanciaautomáticos que “patrullarían” por las grandes ciudades en busca de situaciones de riesgo donde intervenir.
+El proyecto Swann consiste en la construcción de un módulo capaz de reconocer e identificar situaciones en las que sea necesaria la desinfección del aire y actúe enconsecuencia. Es por ello que contará con diferentes sensores (tales como cámaras de infrarrojos) para la detección de aglomeraciones, y dispondrá de un dispensador para la propagación de cualquier desinfectante no dañino. El módulo podría ser acoplado a varios drones de vigilancia automáticos que “patrullarían” por las grandes ciudades en busca de situaciones de riesgo donde intervenir.
 
 
 ## Instalación
 
-A continuación, explicaremos la instalación del software necesario para que una vez este el modulo montado puedas ponerlo a funcionar. 
+A continuación, explicaremos la instalación del software necesario para que una vez esté el módulo montado puedas ponerlo a funcionar. 
 
 
 ### Prerequisitos
