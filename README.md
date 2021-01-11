@@ -42,17 +42,17 @@ raspivid -o - -t 0  -hf -fps 30 -b 6000000 -n | ffmpeg -re -ar 44100 -ac 2 -acod
 ```
 Donde, 
 
--fps: fotogramas por segundo
+- fps: fotogramas por segundo
 
--hf: horizontal flip
+- hf: horizontal flip
 
--b: bitrate
+- b: bitrate
 
--n: desactiva la previsualización
+- n: desactiva la previsualización
 
--f: permite la retransmisión sin micrófono
+- f: permite la retransmisión sin micrófono
 
--[youtube-key]: clave personal para la retransmisión en Youtube
+- [youtube-key]: clave personal para la retransmisión en Youtube
 
 Tras haber instalado las librerias necesarias navega hasta el directorio y ejecuta el Main.py con:
 ```
